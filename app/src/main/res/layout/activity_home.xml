@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#F6F5F5">
+
+        <ImageView
+            android:id="@+id/arrow_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            app:tint="#E91E63">
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="MOCHIMOCHI"
+            android:textAlignment="center"
+            android:textColor="#DCF10857"
+            android:paddingTop="10dp"
+            android:textSize="25sp"
+            android:textStyle="bold"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:orientation="horizontal"
+        android:background="@drawable/signin_bgr">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="15dp"
+            android:text="MỞ KHOÁ HỌC NGAY"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="376dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="314dp"
+            android:paddingTop="50dp"
+            android:paddingBottom="50dp"
+            app:srcCompat="@drawable/maithinga" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:orientation="horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp">
+
+            <Button
+                android:id="@+id/hocngay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/buttonstyle"
+                android:backgroundTint="#509FDD"
+                android:text="  HỌC NGAY  "
+                android:textColor="#fff"
+                app:backgroundTint="#DF336E" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/welcome">
+    </LinearLayout>
+</LinearLayout>
